@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+author: "Alexis Threatt"
+date: "2/21/2022"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
+
+
